@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Primera Página Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container" id="inicio">
+        <h2 class="section-title">Inicio</h2>
+        <p>¡Hola! Esta es mi primera página web. Estoy emocionado de compartirla contigo.</p>
+    </div>
+
+    <div class="container" id="sobre-mi">
+        <h2 class="section-title">Sobre Mí</h2>
+        <p>Mi nombre es [Tu Nombre]. Soy un apasionado de [tu pasatiempo o profesión].</p>
+    </div>
+
+    <div class="container" id="contacto">
+        <h2 class="section-title">Contacto</h2>
+        <p>Si deseas contactarme, puedes enviarme un correo electrónico a <a href="mailto:tucorreo@example.com">tucorreo@example.com</a>.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mi Primera Página Web</p>
+    </footer>
+</body>
+</html>
